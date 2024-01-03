@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Comment System</title>
+</head>
+<body>
+    <h1>Comment System</h1>
+
+    <!-- Formulaire pour écrire un commentaire -->
+    <form id="comment-form">
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId" required><br>
+
+        <label for="technologieId">Technologie ID:</label>
+        <input type="text" id="technologieId" name="technologieId" required><br>
+
+        <label for="comment">Commentaire:</label>
+        <textarea id="comment" name="comment" required></textarea><br>
+
+        <button type="submit">Ajouter un commentaire</button>
+    </form>
+
+    <!-- Formulaire pour afficher les commentaires par technologie -->
+    <form id="tech-comment-form">
+        <label for="techId">Technologie ID:</label>
+        <input type="text" id="techId" name="techId" required><br>
+
+        <button type="submit">Afficher les commentaires</button>
+    </form>
+
+    <!-- Formulaire pour afficher les commentaires par utilisateur -->
+    <form id="user-comment-form">
+        <label for="userIdComment">User ID:</label>
+        <input type="text" id="userIdComment" name="userIdComment" required><br>
+
+        <button type="submit">Afficher les commentaires</button>
+    </form>
+
+    <!-- Formulaire pour afficher les commentaires antérieurs à une date -->
+    <form id="date-comment-form">
+        <label for="dateParam">Date (YYYY-MM-DD):</label>
+        <input type="text" id="dateParam" name="dateParam" required><br>
+
+        <button type="submit">Afficher les commentaires</button>
+    </form>
+
+    <!-- Affichage des résultats -->
+    <div id="results"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

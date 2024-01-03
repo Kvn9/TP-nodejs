@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#resultats {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Styles pour la liste de commentaires */
+#comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #comment-list li {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style pour le titre des commentaires */
+  #comment-list h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Style pour le formulaire de commentaire */
+  #comment-form {
+    margin-top: 20px;
+  }
+  
+  #comment-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #comment-form input[type="number"],
+  #comment-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #comment-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style pour le formulaire de technologie */
+  #tech-form {
+    margin-top: 20px;
+  }
+  
+  #tech-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #tech-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #tech-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style pour le formulaire d'inscription */
+  #signup-form {
+    margin-top: 20px;
+  }
+  
+  #signup-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #signup-form input[type="text"],
+  #signup-form input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #signup-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
